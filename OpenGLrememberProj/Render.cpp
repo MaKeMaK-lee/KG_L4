@@ -588,6 +588,7 @@ void Render(OpenGL* ogl)
 
 	//Днищще тушки
 	{
+		glColor3b(97, 67, 37);
 		r = f(Tushka_Popa[0] + 1, Tushka_Popa_h[0], Tushka_NePopa_h[0], Tushka_NePopa[0] + 1, 0);
 		glBegin(GL_TRIANGLE_FAN);
 		glNormal3d(0, 0, -1);
@@ -667,6 +668,7 @@ void Render(OpenGL* ogl)
 	//..
 	//Верх тушки
 	{
+		glColor3ub(77, 130, 37); 
 		r = f(Tushka_Popa[0] + 1, Tushka_Popa_h[0], Tushka_NePopa_h[0], Tushka_NePopa[0] + 1, 1.01);
 		glBegin(GL_TRIANGLE_FAN);
 		glNormal3d(0, 0, -1);
